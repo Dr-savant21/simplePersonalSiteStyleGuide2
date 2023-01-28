@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #40514e;
+}
+h1{
+    font-size: 5.625rem;
+    margin: 0px;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+.top-container{
+    background-color: #e4f4f9;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-section{
+    margin: 100px 0;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 200px;
+    bottom: 200px;
+}
+.top-cloud{
+    position: absolute;
+    right: 280px;
+    top: 50px;
+}
+.profile-pics{
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+}
+a{
+    color: #11999E;
+    font-family: 'Monserrat', sans-serif;
+}
+.profile-subt{
+    font-weight: normal;
+}
+.intro{
+    width: 35%;
+    text-align: center;
+    margin: auto;
+    line-height: 2;
+}
+.skills-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skills-row img{
+    width: 25%;
+}
+.programmer{
+    float: left;
+    padding: 30px;
+    height: 200px;
+}
+.chess{
+    float: right;
+    padding: 30px;
+}
+.programmer-desc{
+    line-height: 25px;
+}
+hr{
+    width: 10%;
+    border: dotted 4px;
+    border-bottom: none;
+    color: #eaf6f6;
+    margin: 100px auto;
+}
+.contact-me{
+    margin-bottom: 50px;
+}
+.contact-message{
+    width: 60%;
+    margin: 40px auto 60px;
+    line-height: 2;
+}
+
+.btn{
+   border-radius: 8px;
+   background-color: #11cdd4;
+   padding: 8px;
+   text-decoration: none;
+   font-size: 2rem;
+   color: whitesmoke;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    color: red;
+    box-shadow: 1px 2px 3px #000000;
+}
+
+.bottom-section{
+    background-color: #66bfbf;
+    height: 5rem;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.footer-link{
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #eaf6f6;
+
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
